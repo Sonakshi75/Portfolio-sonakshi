@@ -1,0 +1,174 @@
+.body{
+  background-color: black;
+  padding-top:3%;
+  transition:width 3s;
+}
+.navbar1 a{
+  color:white;
+}
+.navbar1 a:hover{
+  color:#D1E8E4;
+  font-size: 1.2rem;
+}
+#nav{
+  background-color: black;
+}
+.nav{
+  background-color: black;
+}
+.introduction{
+  background-color: #D1E8E4;
+  padding:10%;
+  margin-top:10%;
+  margin-left:15%;
+  margin-right:15%;
+  border-radius: 30px;
+}
+
+@media(max-width:850px){
+  .introduction{
+    margin-top: 60%;
+    text-align: center;
+  }
+  .edu{
+    padding-bottom: 10%;
+  }
+}
+
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+  text-align:right;
+
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  margin-left:10%;
+}
+
+.Education{
+  padding:5%;
+  transition: 3s;
+}
+.Education h1{
+  color: grey;
+}
+/*
+#navbar {
+  position: fixed; /* Make it stick/fixed */
+  /* top: -50px; /* Hide the navbar 50 px outside of the top view */
+  /* width: 100%; /* Full width */
+  /* transition: top 0.3s; /* Transition effect when sliding down (and up) */
+/* } */
+
+/* #navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+} */
+
+/* #navbar a:hover {
+  background-color: #ddd;
+  color: black;
+} */
+.goals{
+  padding:5%;
+}
+.goals h1{
+  color:grey;
+  text-align: center;
+}
+
+.AboutMe{
+  padding:7% 15%;
+  background: rgb(234,227,200);
+background: linear-gradient(90deg, rgba(234,227,200,1) 0%, rgba(225,241,221,1) 48%, rgba(234,227,200,1) 100%);
+  text-align: center;
+  transition: 3s;
+
+}
+
+.AboutMe h1{
+  padding-bottom: 2%;
+}
+
+.foot{
+  padding:4%;
+  background-color: black;
+  color:white;
+  text-align: center;
+}
+
+.foot a{
+  color:white;
+  text-decoration: none;
+}
+.foot a:hover{
+  color:#D1E8E4;
+  font-size: 1.2rem;
+}
+
+.Experience{
+  background-color: grey;
+  padding:7% 15%;
+  transition: 3s;
+
+}
+
+.edu-info-year{
+  color: #E9DAC1;
+  font-size: 0.5rem;
+}
+
+
+.edu-info-school{
+  font-size: 0.5rem;
+  text-align: left;
+  color: white;
+}
+
+
+.projects{
+  padding:3%;
+  background-color: #FEECE9;
+  text-align: center;
+  transition: 3s;
+
+}
+
+
+.personalProjects{
+  text-align: left;
+}
+
+.organizationsProjects{
+  text-align: left;
+}
+
+.experience{
+  padding:4%;
+  background-color:#FBFFE2;
+  transition: 3s;
+
+}
+
+.certificates{
+  padding:4%;
+  background-color: #FF6363;
+  color:white;
+  text-align: center;
+  transition: 3s;
+  
+}
