@@ -142,7 +142,8 @@ background: linear-gradient(90deg, rgba(234,227,200,1) 0%, rgba(225,241,221,1) 4
 
 .projects{
   padding:3%;
-  background-color: #FEECE9;
+  background-color: black;
+  color:white;
   text-align: center;
   transition: 3s;
 
@@ -170,5 +171,23 @@ background: linear-gradient(90deg, rgba(234,227,200,1) 0%, rgba(225,241,221,1) 4
   color:white;
   text-align: center;
   transition: 3s;
-  
+
+}
+
+.image-project{
+  border-radius:20px;
+  position: absolute;
+  z-index:1;
+  margin-right:20px;
+  margin-bottom:20px;
+}
+
+.code-link{
+  position: absolute;
+  z-index:1;
+}
+
+.whole-pack{
+  text-align:left;
+  margin-right:2%;
 }
